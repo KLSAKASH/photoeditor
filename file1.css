@@ -7,12 +7,13 @@ body{
   background: #2e2b2b;
 }
 .img-container{
-  position: absolute;
+  padding: 2em;
+  position: relative;
   width: 50%;
   height: 50%;
   top: 41%;
-  left: 50%;
-  transform: transalate(-50%, -50%);
+ left:22%;
+  
   text-align: center;
 }
 .image{
@@ -21,7 +22,7 @@ body{
 }
 .file-upload-section{
   margin: auto;
-  maargin-top: 5%;
+  margin-top: 5%;
   font-weight: bold;
   width: 50%;
   padding: 4px;
@@ -36,7 +37,7 @@ body{
 .buttons-section{
   position:fixed;
   margin: auto;
-  top: 67%;
+  top: 80%;
   left: 25%;
   color: white;
   width: 50%;
